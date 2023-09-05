@@ -5,6 +5,8 @@ body {
 h1 {
     text-align: center;
     font-size: 55px;
+    color: white;
+    background-color: #885717;
 }
 
 h2 {
@@ -24,14 +26,6 @@ img {
     height: auto;
 }
 
-button {
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    font-size: 25px;
-    width: 400px;
-}
-
 .description {
     font-size: 18px;
     font-weight: 100;
@@ -45,4 +39,54 @@ ul {
 ol {
     font-size: 18px;
     text-align: left;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+.pagetitle {
+    background-color:#592125;
+    padding: 5px;
+    border: 5px;
+}
+
+.space {
+    height: 40px;
+    width: auto;
+}
+
+.recipes {
+    width: 600px;
+    margin-right: 33%;
+    background-color: #592125;
+    padding: 20px;
+}
+
+.list {
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+.choice {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    padding: 5px;
+    width: 400px;
+    margin-right: 33% ;
+    margin-bottom: 5px;
+    color: white;
+    background-color: #885717;
+}
+
+.food {
+    width: 700px;
 }
